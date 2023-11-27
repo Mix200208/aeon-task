@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.aeon.aeonpayment"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.aeon.aeonpayment"
