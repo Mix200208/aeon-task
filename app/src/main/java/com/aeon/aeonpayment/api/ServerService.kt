@@ -9,6 +9,8 @@ object ServerService {
 
     private const val BASE_URL = "https://easypay.world/api-test/"
 
+    var token = ""
+
     private val loggingInterceptor = run {
         val httpLoggingInterceptor = HttpLoggingInterceptor()
         httpLoggingInterceptor.apply {
